@@ -22,7 +22,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        dir('realworld-cicd-pipeline-project-main/') {
+        dir('CICD-REAL-WORLD-PROJECT.git/') {
         sh 'mvn clean package'
         }
       }
